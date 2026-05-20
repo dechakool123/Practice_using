@@ -6,4 +6,15 @@ for k in range(n) :
     s += float(sc)
 print("number =", n)
 print("avg =", s/n)
-
+a = infile.readline().strip()
+if a == 'A' :   
+    print("A")
+elif a == 'B' :
+    print("B")
+elif a == 'C' :
+    print("C")
+elif a == 'D' :
+    print("D")
+else :   
+    print("F")
+infile.close()
