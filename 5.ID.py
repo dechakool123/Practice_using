@@ -6,4 +6,8 @@ for k in range(n) :
     s += float(sc)
 print("number =", n)
 print("avg =", s/n)
-
+for k in range(n) :
+    sid, sc = infile.readline().strip().split()
+    if float(sc) > s/n :
+        print(sid, sc)
+infile.close()
