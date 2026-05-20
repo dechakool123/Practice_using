@@ -10,4 +10,15 @@ for k in range(n) :
     sid, sc = infile.readline().strip().split()
     if float(sc) > s/n :
         print(sid, sc)
+a = infile.readline().strip()
+if a == 'A' :   
+    print("A")
+elif a == 'B' :
+    print("B")
+elif a == 'C' :
+    print("C")
+elif a == 'D' :
+    print("D")
+else :   
+    print("F")
 infile.close()
