@@ -22,3 +22,4 @@ elif a == 'D' :
 else :   
     print("F")
 infile.close()
+print(k)
